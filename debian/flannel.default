@@ -1,0 +1,13 @@
+# Defaults for flannel initscript
+# sourced by /etc/init.d/flannel
+# installed at /etc/default/flannel by the maintainer scripts
+
+#
+# This is a POSIX shell fragment
+#
+
+# Additional options that are passed to the Daemon.
+FLANNEL_ETCD=""
+FLANNEL_ETCD_KEY=""
+
+#FLANNEL_OPTIONS=""

@@ -1,0 +1,15 @@
+Source: flannel
+Section: net
+Priority: optional
+Maintainer: Erick Cantwell <ecantwell@mirantis.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: http://githube.com/coreos/flannel
+Vcs-Git: git://github.com/coreos/flannel.git
+Vcs-Browser: https://github.com/coreos/flannel.git
+
+Package: flannel
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Flannel is a virtual network that gives 
+ a subnet to each host for use with container runtimes.
