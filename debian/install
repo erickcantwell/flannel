@@ -1,2 +1,2 @@
 flanneld.conf etc/init
-mk-docker-opts.sh usr/local/bin
+mk-docker-opts.sh usr/bin
