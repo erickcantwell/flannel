@@ -87,3 +87,5 @@ done
 if [ "$combined_opts" = true ]; then
 	echo "${combined_opts_key}=\"${docker_opts}\"" >>$docker_env
 fi
+
+touch /run/flannel.env.done
